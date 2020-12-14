@@ -1,7 +1,7 @@
 <%-- 
     Document   : gettingId
-    Created on : 28 de nov. de 2020, 04:17:27
-    Author     : Lucas
+    Created on : 8 de dezembro. de 2020, 06:04:20
+    Author     : Emanuel
 --%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

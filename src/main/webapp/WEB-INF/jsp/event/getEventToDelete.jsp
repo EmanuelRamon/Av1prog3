@@ -1,7 +1,7 @@
 <%-- 
     Document   : getEventToDelete
-    Created on : 2 de dez. de 2020, 04:23:27
-    Author     : Lucas
+    Created on : 9 de dez. de 2020, 08:21:24
+    Author     : Beaztriz
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -17,12 +17,12 @@
     <body>
         <div class="container">
             <br>
-            <h2>Você está atualizando o evento: ${event.title}</h2>
+            <h2>atualizando o Contato: ${event.title}</h2>
             <br>
             <form class="mt-4" action="${path}/events/delete" method="POST">
                 <input type="hidden" name="event.uuid" value="${event.uuid}">
                 <%@include file="../templates/formFieldsEvent.jsp" %>
-                <button type="submit" class="btn btn-danger">Deletar Evento</button>
+                <button type="submit" class="btn btn-danger">Deletar Contato</button>
             </form>
         </div>
 </html>

@@ -1,7 +1,7 @@
 <%-- 
     Document   : newjsp
     Created on : 2 de dez. de 2020, 01:28:33
-    Author     : Lucas
+    Author     : Beatriz
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

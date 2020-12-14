@@ -1,7 +1,7 @@
 <%-- 
     Document   : userPage
     Created on : 30 de nov. de 2020, 16:58:12
-    Author     : Lucas
+    Author     : Beatriz
 --%>
 
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
@@ -21,17 +21,15 @@
         <div class="container">
             <div class="mt-4">
                 <h2>Seja bem vindo(a)!</h2>
-                <h5>Para cadastrar um evento clique <a href="${path}/events/create-event">aqui</a></h5>
+                <h5>Para cadastrar um Contato clique <a href="${path}/events/create-event">aqui</a></h5>
                 <br>
-                <h3>Esses são os eventos cadastrados</h3>  
+                <h3>Contatos cadastrados</h3>  
             </div>
             <table class="table">
                 <thead class="thead-light">
                     <tr>
                         <th scope="col">Data</th>
                         <th scope="col">Titulo</th>
-                        <th scope="col">Local</th>
-                        <th scope="col">Organizador</th>
                         <th scope="col">Editar</th>
                         <th scope="col">Excluir</th>
                     </tr>

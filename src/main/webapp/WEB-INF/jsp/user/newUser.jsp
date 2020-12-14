@@ -1,7 +1,7 @@
 <%-- 
     Document   : newUser
     Created on : 30 de nov. de 2020, 15:43:45
-    Author     : Lucas
+    Author     : Fernando
 --%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

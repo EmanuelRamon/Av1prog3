@@ -1,7 +1,7 @@
 <%-- 
     Document   : index
     Created on : 30 de nov. de 2020, 17:39:44
-    Author     : Lucas
+    Author     : Emanuel
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -21,7 +21,7 @@
                 justify-content: space-between;
             }
         </style>
-        <title>Eventos</title>
+        <title>Agenda</title>
     </head>
     <body>
         <div class="container">
@@ -32,11 +32,8 @@
 
                 <div class="card-body">
                     <h5 class="card-title">AV1 de Prog III</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Eventos</h6>
-                    <p class="card-text">Plataforma de eventos desenvolvida sobre os seguintes conceitos:</p>
-                    <p class="card-text">HttpServlet e requisições Http</p>
-                    <p class="card-text">HttpSession</p>
-                    <p class="card-text">JSTL e EL(Expression Language)</p>
+                    <h6 class="card-subtitle mb-2 text-muted">Agenda</h6>
+                    <p class="card-text">HttpServlet e requisições Http, HttpSession,JSTL e EL(Expression Language)</p>
                 </div>
             </div>     
 

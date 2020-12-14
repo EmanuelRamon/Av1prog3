@@ -1,7 +1,7 @@
 <%-- 
     Document   : getEvents
-    Created on : 28 de nov. de 2020, 01:33:27
-    Author     : Lucas
+    Created on : 8 de Dezembro. de 2020, 04:33:21
+    Author     : Emanuel
 --%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -11,20 +11,18 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"> 
 
-        <title>Todos os eventos</title>
+        <title>Todos os Contatos</title>
     </head>
     <body>
         <c:set var="path" value="${pageContext.request.contextPath}"/>
         <div class="container">
             <br>
-            <h3>Esses são os eventos cadastrados:</h3>
+            <h3>Contatos cadastrados:</h3>
             <table class="table">
                 <thead class="thead-light">
                     <tr>
                         <th scope="col">Data</th>
-                        <th scope="col">Titulo</th>
-                        <th scope="col">Local</th>
-                        <th scope="col">Organizador</th>
+                        <th scope="col">Nome</th>
                         <th scope="col">Editar</th>
                         <th scope="col">Excluir</th>
 

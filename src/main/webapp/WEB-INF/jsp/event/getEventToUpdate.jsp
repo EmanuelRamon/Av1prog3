@@ -1,7 +1,7 @@
 <%-- 
     Document   : updateEvent
-    Created on : 28 de nov. de 2020, 01:58:16
-    Author     : Lucas
+    Created on : 9 de nov. de 2020, 09:50:10
+    Author     : Beatriz
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -17,12 +17,12 @@
         <c:set var="path" value="${pageContext.request.contextPath}"/>
         <div class="container">
             <br>
-            <h2>Você está atualizando o evento: ${event.title}</h2>
+            <h2>atualizando o Contato: ${event.title}</h2>
             <br>
             <form class="mt-4" action="${path}/events/update" method="POST">
                 <input type="hidden" name="event.uuid" value="${event.uuid}">
                 <%@include file="../templates/formFieldsEvent.jsp" %>
-                <button type="submit" class="btn btn-success">Atualizar Evento</button>
+                <button type="submit" class="btn btn-success">Atualizar Contato</button>
             </form>
         </div>
 

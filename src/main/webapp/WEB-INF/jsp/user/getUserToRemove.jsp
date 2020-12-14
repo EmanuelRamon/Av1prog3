@@ -1,7 +1,7 @@
 <%-- 
     Document   : getUserToRemove
-    Created on : 2 de dez. de 2020, 02:11:13
-    Author     : Lucas
+    Created on : 2 de dez. de 2020, 03:11:13
+    Author     : Emnauel
 --%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

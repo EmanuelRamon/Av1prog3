@@ -1,13 +1,13 @@
 <%-- 
     Document   : navbarUser
-    Created on : 2 de dez. de 2020, 02:48:42
-    Author     : Lucas
+    Created on : 10 de dez. de 2020, 02:48:42
+    Author     : Fernando
 --%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <c:set var="path" value="${pageContext.request.contextPath}"/>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <p class="navbar-brand">Eventos App</p>
+    <p class="navbar-brand">Agenda App</p>
     <div class="collapse navbar-collapse mt-2" id="navbarTogglerDemo02">
         <ul class="navbar-nav mr-auto mt-lg-0">
             <li class="nav-item active">
@@ -33,8 +33,8 @@
         </ul>
         <form class="form-inline my-2 my-lg-0" action="${path}/events/bydate${date}" method="GET">
             <input class="form-control mr-sm-2" type="search"
-                   placeholder="Data do evento..." name="date">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Procurar</button>
+                   placeholder="Data..." name="date">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
         </form>
     </div>
 </nav>

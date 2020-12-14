@@ -1,7 +1,7 @@
 <%-- 
     Document   : getUserCpf
-    Created on : 30 de nov. de 2020, 17:59:11
-    Author     : Lucas
+    Created on : 01 de Dezembro. de 2020, 17:59:11
+    Author     : Emanuel
 --%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
